@@ -1,108 +1,153 @@
-<!doctype html>
-<html>
-  <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>惊惊与丁丁</title>
-  <meta name="author" content="丁丁" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="记录我们的美好" />
-  
-  <link rel="icon" href="/favicon.ico" />
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-  <body class="relative pb-8 min-h-screen border-t-2 border-black">
-    <header class="shadow-sm bg-white">
-  <div class="flex justify-between mx-auto max-w-3xl py-2">
-    <div class="flex items-center">
-      <div class="w-8 h-8">
-        <a href="/">
-          <img src="/logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <h1 class="ml-4"><a href="/" title="惊惊与丁丁">惊惊与丁丁</a></h1>
-    </div>
-    <ul class="flex items-center justify-end">
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2024 | 惊惊与丁丁</title><meta name="author" content="丁丁"><meta name="copyright" content="丁丁"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="记录我们的美好">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2024">
+<meta property="og:url" content="http://example.com/archives/2024/index.html">
+<meta property="og:site_name" content="惊惊与丁丁">
+<meta property="og:description" content="记录我们的美好">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="丁丁">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/archives/2024/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2024',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-03-13 13:39:21'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
       
-      <li class="ml-4"><a href="/" title="Home">Home</a></li>
+        get: key => {
+          const itemStr = localStorage.getItem(key)
       
-      <li class="ml-4"><a href="/about/" title="About">About</a></li>
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
       
-      <li class="ml-4"><a href="/archives/" title="Archives">Archives</a></li>
-      
-      <li class="ml-4"><a href="/tags/" title="Tags">Tags</a></li>
-      
-    </ul>
-  </div>
-</header>
-
-    <main>
-      <div class="mx-auto max-w-3xl"><div class="py-8">
-  <h2 class="text-2xl font-semibold text-center">
-    2 Posts In Total
-  </h2>
-  <ul class="flex flex-col justify-center">
-       
-    <h3 class="mt-8 mb-4 text-xl font-semibold">2024</h3>
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
     
-    <li>
-      <a
-        href="/2024/03/12/%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/"
-        class="group flex px-4 py-2 hover:bg-gray-100 transition-colors"
-      >
-        <span class="basis-20 group-hover:text-orange-500">
-          03-12
-        </span>
-        <span class="flex-auto group-hover:text-orange-500"
-          >学习第一天</span
-        ></a
-      >
-    </li>
-     
-    <li>
-      <a
-        href="/2024/03/12/hello-world/"
-        class="group flex px-4 py-2 hover:bg-gray-100 transition-colors"
-      >
-        <span class="basis-20 group-hover:text-orange-500">
-          03-12
-        </span>
-        <span class="flex-auto group-hover:text-orange-500"
-          >Hello World</span
-        ></a
-      >
-    </li>
-    
-  </ul>
-</div>
-</div>
-    </main>
-    <footer class="absolute bottom-2 left-0 right-0">
-  <div class="mx-auto max-w-3xl flex items-center justify-between">
-    <p class="text-sm text-gray-400">
-       Copyright &copy;  2024 丁丁
-    </p>
-    <p class="text-sm text-gray-400">
-      Powered by
-      <a
-        href="https://hexo.io"
-        target="_blank"
-        class="text-orange-300 underline"
-        >Hexo</a
-      >
-      • Theme
-      <a
-        href="https://github.com/mintsweet/hexo-theme-mints"
-        target="_blank"
-        class="text-orange-300 underline"
-        >Mints</a
-      >
-    </p>
-  </div>
-</footer>
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
 
-  </body>
-</html>
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="惊惊与丁丁"><span class="site-name">惊惊与丁丁</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">2024</h1></div></header><main class="layout" id="content-inner"><div id="archive"><div class="article-sort-title">Articles - 2</div><div class="article-sort"><div class="article-sort-item year">2024</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-03-12T08:51:19.000Z" title="Created 2024-03-12 16:51:19">2024-03-12</time></div><a class="article-sort-item-title" href="/2024/03/12/%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/" title="学习第一天">学习第一天</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-03-12T07:43:07.220Z" title="Created 2024-03-12 15:43:07">2024-03-12</time></div><a class="article-sort-item-title" href="/2024/03/12/hello-world/" title="Hello World">Hello World</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">丁丁</div><div class="author-info__description">记录我们的美好</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="/t" target="_blank" title=""><i></i></a><a class="social-icon" href="/i" target="_blank" title=""><i class="1"></i></a><a class="social-icon" href="/n" target="_blank" title=""><i class="2"></i></a><a class="social-icon" href="/g" target="_blank" title=""><i class="3"></i></a><a class="social-icon" href="/w" target="_blank" title=""><i class="4"></i></a><a class="social-icon" href="/f" target="_blank" title=""><i class="5"></i></a><a class="social-icon" href="/0" target="_blank" title=""><i class="6"></i></a><a class="social-icon" href="/1" target="_blank" title=""><i class="7"></i></a><a class="social-icon" href="/0" target="_blank" title=""><i class="8"></i></a><a class="social-icon" href="/3" target="_blank" title=""><i class="9"></i></a><a class="social-icon" href="/@" target="_blank" title=""><i class="10"></i></a><a class="social-icon" href="/f" target="_blank" title=""><i class="11"></i></a><a class="social-icon" href="/i" target="_blank" title=""><i class="12"></i></a><a class="social-icon" href="/n" target="_blank" title=""><i class="13"></i></a><a class="social-icon" href="/m" target="_blank" title=""><i class="14"></i></a><a class="social-icon" href="/a" target="_blank" title=""><i class="15"></i></a><a class="social-icon" href="/i" target="_blank" title=""><i class="16"></i></a><a class="social-icon" href="/l" target="_blank" title=""><i class="17"></i></a><a class="social-icon" href="/." target="_blank" title=""><i class="18"></i></a><a class="social-icon" href="/c" target="_blank" title=""><i class="19"></i></a><a class="social-icon" href="/o" target="_blank" title=""><i class="20"></i></a><a class="social-icon" href="/m" target="_blank" title=""><i class="21"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/12/%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/" title="学习第一天">学习第一天</a><time datetime="2024-03-12T08:51:19.000Z" title="Created 2024-03-12 16:51:19">2024-03-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/12/hello-world/" title="Hello World">Hello World</a><time datetime="2024-03-12T07:43:07.220Z" title="Created 2024-03-12 15:43:07">2024-03-12</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-03-13T05:39:21.088Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 丁丁</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
